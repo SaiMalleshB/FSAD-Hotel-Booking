@@ -1,0 +1,118 @@
+/* Container styling */
+.my-booking-container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-booking-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+  
+  .my-booking-container .sub-title {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Loader styling */
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 2rem auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .no-bookings {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Booking grid styling */
+  .booking-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  /* Booking card styling */
+  .booking-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .booking-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Booking card details */
+  .booking-hotel {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .booking-card p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .booking-card strong {
+    color: #333;
+  }
+  
+  /* Payment status styling */
+  .status {
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+  }
+  
+  .status.paid {
+    color: #155724;
+    background-color: #d4edda;
+  }
+  
+  .status.unpaid {
+    color: #721c24;
+    background-color: #f8d7da;
+  }
+  
+  .status.pending {
+    color: #856404;
+    background-color: #fff3cd;
+  }
+  

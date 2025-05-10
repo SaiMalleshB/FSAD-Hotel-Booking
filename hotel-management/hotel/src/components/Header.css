@@ -1,0 +1,41 @@
+/* Main navbar styling with a modern gradient background and sticky effect */
+.custom-navbar {
+    background: linear-gradient(135deg, #ff0000, #ff6f00);
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Brand logo styling */
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Toggler customization for a better mobile view */
+  .custom-navbar .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* .custom-navbar .navbar-toggler-icon {
+     }
+   */
+  /* Navigation link styling with smooth hover effects */
+  .custom-nav .custom-nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-nav .custom-nav-link:hover {
+    color: #fff9c4;
+  }
+  
+  /* Greeting text styling */
+  .custom-auth .greeting {
+    margin-right: 1rem;
+    color: white;
+    font-weight: 500;
+  }
+  

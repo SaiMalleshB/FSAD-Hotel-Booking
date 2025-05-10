@@ -1,0 +1,116 @@
+/* Container for the hotel details page */
+.hotel-details-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header section with full-width image and overlayed hotel info */
+  .hotel-header {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  .hotel-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .hotel-header-info {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .hotel-name {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .hotel-address {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .hotel-rating {
+    font-size: 1.2rem;
+  }
+  
+  /* Content section with a white background and shadow */
+  .hotel-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  /* Description styling */
+  .hotel-description h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+  }
+  
+  .hotel-description p {
+    line-height: 1.6;
+  }
+  
+  /* Responsive grid for additional information */
+  .hotel-info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hotel-info-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .hotel-info-item h3 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #3498db;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+  }
+  
+  .hotel-info-item p {
+    margin: 0.5rem 0;
+  }
+  
+  /* Footer section with the Book Now button */
+  .hotel-footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .book-now-btn {
+    background: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .book-now-btn:hover {
+    background: #1e8449;
+  }
+  

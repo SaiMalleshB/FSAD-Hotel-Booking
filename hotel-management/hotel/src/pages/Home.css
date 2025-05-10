@@ -1,0 +1,57 @@
+/* Overall container background and padding */
+.home-container {
+    padding: 2rem;
+    background: #f9f9f9;
+  }
+  
+  /* Hero Section styling */
+  .hero-section {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  .hero-title span{
+    color: rgb(255, 251, 0);
+    font-size: 50px;
+    font-style:italic;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+  
+  .hero-search .form-control {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-section {
+    padding: 2rem 0;
+  }
+  
+  .error-alert {
+    font-size: 1.1rem;
+  }
+  
+  .no-hotels {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  

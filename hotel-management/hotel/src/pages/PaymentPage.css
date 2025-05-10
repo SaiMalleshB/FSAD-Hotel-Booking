@@ -1,0 +1,79 @@
+.payment-page {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #f8f3ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-page h2 {
+    margin-bottom: 20px;
+    color: #4a148c;
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .half {
+    flex: 1;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #6a1b9a;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .confirm-button:hover {
+    background-color: #4a148c;
+  }
+  
+  .confirm-button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .success {
+    color: green;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
